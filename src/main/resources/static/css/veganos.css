@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;    
+}
+header{
+    height: 15vh;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 160px;
+    cursor:pointer;
+}
+nav{
+    flex:1;
+    padding-left: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#333;
+}
+
+h1{
+    font-size: 4em;
+    line-height: 1em;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+h2{
+    font-size: 2em;
+    line-height: 1em;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.content p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+.vegan_pastry_characteristics{
+    display:flex;
+    gap:10%;    
+    background-color: #f1f1f1;
+    padding-left: 5%;
+    align-items: center;
+    margin-bottom: 75px; 
+}
+
+.image_characteristics{
+    flex:0.5;    
+    width: 20%;
+    object-fit: cover;    
+}
+
+.characteristics{
+    flex:0.5;
+    margin-top: 50px;   
+    
+}
+
+.characteristics div{
+    display:flex;
+    margin-bottom: 5%;
+}
+
+.characteristics div h2{
+    color: #0077b6;
+}
+
+.characteristics div img{
+    max-width: 30%;
+    margin-right: 10%;
+}
+
+.vegan_life{
+    display:flex;
+    gap:10%;
+    align-items: center; 
+    
+}
+
+.vegan_life img{
+    max-width: 30%;
+    margin-right: 10%;
+}
