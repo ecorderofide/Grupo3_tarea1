@@ -5,9 +5,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    height: fit-content;
 }
 body{
-    height: 100vh;
+    height: 200vh;
     width: 100%;
     background-image: url(../images/background.png);
     background-position: center;
@@ -17,7 +18,7 @@ body{
     position: relative;    
 }
 header{
-    height: 15vh;
+    height: auto;
     width: 100%;
     margin: auto;
     display: flex;
@@ -103,7 +104,8 @@ h2{
 .vegan_life{
     display:flex;
     gap:10%;
-    align-items: center; 
+    align-items: center;
+    position: static;
     
 }
 

@@ -17,14 +17,14 @@ body{
     position: relative;    
 }
 header{
-    height: 15vh;
+    height: auto;
     width: 100%;
     margin: auto;
     display: flex;
     align-items: center;
 }
 .logo{
-    width: 160px;
+    width: 100px;
     cursor:pointer;
 }
 nav{

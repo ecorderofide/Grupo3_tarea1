@@ -17,7 +17,7 @@ body{
     position: relative;    
 }
 header{
-    height: 15vh;
+    height: auto;
     width: 100%;
     margin: auto;
     display: flex;
